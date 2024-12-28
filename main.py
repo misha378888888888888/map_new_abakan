@@ -11,6 +11,11 @@ map = folium.Map(
 folium.TileLayer('CyclOSM', name="CyclOSM").add_to(map)
 folium.TileLayer('Esri.WorldImagery', name="Esri World Imagery").add_to(map)
 folium.TileLayer('OpenStreetMap', name="OpenStreetMap").add_to(map)
+# улицы я не понимать как это делать
+#folium.PolyLine('lenina_coordinates', name="lenina_coordinates").add_to(map)
+#folium.PolyLine('shetinkina_coordinates', name="shetinkina_coordinates").add_to(map)
+#folium.PolyLine('krulova_coordinates', name="krulova_coordinates").add_to(map)
+#folium.PolyLine('chertigasheva_coordinates', name="chertigasheva_coordinates").add_to(map)
 
 # координаты улиц
 lenina_coordinates = [
